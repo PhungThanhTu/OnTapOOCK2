@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{4c992535-4027-4359-afa2-e2520f7c6b2c}</ProjectGuid>
-    <RootNamespace>Bai2</RootNamespace>
+    <ProjectGuid>{e209b0d2-1107-48af-8199-1eb604b7321a}</ProjectGuid>
+    <RootNamespace>OnTapCK2</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -140,6 +140,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MyMatrix.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyMatrix.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="E.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

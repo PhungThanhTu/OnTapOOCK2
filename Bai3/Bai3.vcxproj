@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{6e795350-8d38-4ea4-9d94-72ad180a33a9}</ProjectGuid>
-    <RootNamespace>OnTapCK</RootNamespace>
+    <ProjectGuid>{15855082-ec8d-440a-b5b6-7332e3c1f1a8}</ProjectGuid>
+    <RootNamespace>Bai3</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -140,13 +140,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Matrix.cpp" />
+    <ClCompile Include="ThietBIGD.cpp" />
+    <ClCompile Include="ThietBiGDDT.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="E.txt" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="ThietBIGD.h" />
+    <ClInclude Include="ThietBiGDDT.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Matrix.h" />
+    <ResourceCompile Include="Bai3.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
